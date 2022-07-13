@@ -1,5 +1,5 @@
 import { assertEquals } from 'https://deno.land/std@0.146.0/testing/asserts.ts';
-import hex8ToRGBA from '../lib/converters/hex8ToRGBA.ts';
+import hex8ToRGBA from '../lib/convert/hex8ToRGBA.ts';
 import testdata from './testdata.ts';
 
 Deno.test('toAlpha test', () => {
