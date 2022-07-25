@@ -7,7 +7,7 @@ import RGB from "../types/RGB.ts";
  * @param rgb
  * @returns Hex string.
  */
-export default function RGBToHex6(rgb: RGB): Hex {
+export default function RGBToHex6(rgb: RGB): string {
   return `${pad2(Math.round(rgb.r).toString(16))}${
     pad2(Math.round(rgb.g).toString(16))
   }${pad2(Math.round(rgb.b).toString(16))}`;
