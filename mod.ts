@@ -11,6 +11,12 @@ import RGB from './lib/types/RGB.ts';
 import RGBA from './lib/types/RGBA.ts';
 import Triad from './lib/types/Triad.ts';
 
+
 export type { Alpha, Color, Hex4, HSL, HSLA, HSV, HSVA, RGB, RGBA, Triad };
 
-export { convert, validate };
+export {
+    convert,
+    validate,
+};
+
+export * from './lib/convert/mod.ts';
